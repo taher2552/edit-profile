@@ -162,6 +162,7 @@
     outline: none;
     border: none;
     width: 100%;
+    background-color: none;
 }
 
 input::-webkit-outer-spin-button,
@@ -201,6 +202,33 @@ input[type=number] {
     cursor: pointer;
     padding: 0.62rem 0.94rem;
     text-align: center;
+}
+
+.profile-league-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border:1px solid var(--border-color);
+    padding: 0.94rem;
+    margin-bottom: 1rem;
+}
+
+.profile-league{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.profile-league-text{
+    margin-left: 0.5rem;
+}
+
+.profile-arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* trophy section ends here  */
