@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* general css start  */
+
+:root {
+    --white: #fff;
+    --black: #000;
+    --acc-color: #17479E;
+    --border-color: #dcdcdc;
+    --light-grey: #AAA;
+    --active-bg: #C7DBFF;
+    --search-bg: #fcfcfc;
+    --btn-red: #E73725;
+    --font-color: #505050;
+    --light-bg: #f8f8f8;
+}
+
+.common-fonts {
+    color: #000;
+    font-family: DM Sans;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem;
+    letter-spacing: -0.02563rem;
+}
+
+/* general css start ends */
+
+/* landing page top css starts */
+
+.landing-page-container {
+    background-color: var(--white);
+}
+
+.landing-page-box {
+    max-width: 480px;
+    margin: 0 auto;
+    border: 1px solid green;
+}
+
+.landing-page-player {
+    width: 2.19506rem;
+    height: 2.125rem;
+    border-radius: 50%;
+    margin-left: 0.8rem;
+    cursor: pointer;
+}
+
+.landing-page-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    width: 100%;
+}
+
+.landing-page-top-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-page-search {
+    margin-left: 0.8rem;
+    background-color: var(--search-bg);
+    padding: 0.8rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.landing-page-menu {
+    cursor: pointer;
+}
+
+/* landing page top css ends */
+
+
+/* profile page additional css starts here */
+
+.profile-img-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+
+.profile-change-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.profile-player {
+    width: 4.64838rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+
+}
+
+.profile-note {
+    border: 1px solid var(--border-color);
+    padding: 0.44rem 0.6rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: max-content;
+
+}
+
+.profile-change-text {
+    color: var(--font-color);
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+/* bascic info section starts here  */
+.profile-basic-info {
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+}
+
+.profile-basic-text {
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin-bottom: 0.94rem;
+}
+
+.profile-cards {
+    border: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 1rem;
+    padding: 0.6rem;
+    cursor: pointer;
+}
+
+.profile-user-icon {
+    margin-right: 0.88rem;
+}
+
+.profile-input-section {
+    width: 100%;
+}
+
+.profile-input-label {
+    color: var(--light-grey);
+    font-size: 0.75rem;
+}
+
+.profile-input {
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    width: 100%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+/* bascic info section ends here  */
+
+/* trophy section starts here  */
+
+.profile-trophy {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    align-items: center;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.profile-trophy-heading {
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+.profile-add-btn{
+    border: 1px solid var(--btn-red);
+    background-color: var(--white);
+    color: var(--btn-red);
+    cursor: pointer;
+    padding: 0.62rem 0.94rem;
+    text-align: center;
+}
+
+/* trophy section ends here  */
+
+/* profile page additional css ends here */
