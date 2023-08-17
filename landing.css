@@ -163,6 +163,7 @@
     border: none;
     width: 100%;
     background-color: none;
+    font-weight: bold;
 }
 
 input::-webkit-outer-spin-button,
@@ -231,6 +232,7 @@ input[type=number] {
     border: none;
     width: 100%;
     background-color: none;
+    font-weight:bold;
 }
 
 .profile-league-text{
@@ -273,15 +275,72 @@ input[type=number] {
 }
 /* trophy section ends here  */
 
-.profile-about-text{
+.profile-about{
     margin-left: 1rem;
     margin-right: 1rem;
+    border:1px solid var(--border-color);
+    padding: 0.94rem;
 }
 
 .profile-about-text{
     text-align: justify;
     color: var(--font-text);
 }
+
+.profile-carrier{
+    margin-bottom: 0;
+    margin-bottom: 1.25rem;
+}
+
+.profile-international{
+    margin-bottom: 1.25rem;
+    margin-left: 1rem;
+}
+
+.profile-carrier-text{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.profile-gallery{
+    margin-left: 1rem;
+
+}
+
+.profile-gallery-text{
+    margin-top: 2rem;
+}
+
+.profile-gallery-btn{
+    margin-top: 0;
+    margin-top:1rem;
+}
+
+.image-scroll-container {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent wrapping onto new lines */
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.image-row {
+    flex: 0 0 auto;
+    display: inline-block;
+    max-height: 100vh; /* Adjust as needed */
+    margin-right: 10px; /* Adjust spacing between images */
+}
+
+.profile-ground {
+    width: 17.5rem;
+    height: 8.5rem;
+    border-radius: 0.3125rem;
+    display: block;
+    
+}
+
+
+
 
 
 
