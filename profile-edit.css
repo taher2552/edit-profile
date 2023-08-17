@@ -162,7 +162,7 @@
     outline: none;
     border: none;
     width: 100%;
-    background-color: none;
+    background-color: var(--white);
     font-weight: bold;
 }
 
