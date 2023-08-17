@@ -162,9 +162,8 @@
     outline: none;
     border: none;
     width: 100%;
-    background-color: var(--white);
+    background-color: none;
     font-weight: bold;
-    color:#000;
 }
 
 input::-webkit-outer-spin-button,
