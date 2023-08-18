@@ -163,7 +163,6 @@
     border: none;
     width: 100%;
     background-color: var(--white);
-    font-weight: bold;
 }
 
 input::-webkit-outer-spin-button,
@@ -232,7 +231,6 @@ input[type=number] {
     border: none;
     width: 100%;
     background-color: none;
-    font-weight:bold;
 }
 
 .profile-league-text{
